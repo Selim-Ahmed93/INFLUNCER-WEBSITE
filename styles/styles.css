@@ -1,3 +1,53 @@
-h1{
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
 }
+body{
+    font-family: "Inter", sans-serif;
+    
+}
+.nav-section{
+    width: 90%;
+    border-radius: 4rem;
+    display:flex;
+    justify-content: space-between;
+}
+.Menu-bar{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    text-decoration: none;
+
+    
+}
+.title-bar{
+    color: chartreuse;
+    padding-top: 1rem;
+}
+.banner-section{
+    width: 382px;
+    height: 110px;
+    margin:0, 1rem;
+    padding:1rem;
+}
+.detail-menu{
+    padding:10px;
+}
+.btn-menu{
+    width:0,4rem;
+    height:0,3rem;
+    margin:0,2rem;
+    padding: 0,2rem;
+    border-radius:1rem;
+    background-color: coral;
+    color: blanchedalmond;
+}
+.image-section{
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    
+}
+
